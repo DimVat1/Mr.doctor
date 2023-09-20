@@ -1,0 +1,108 @@
+/* Add this to your existing styles.css or update it */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Add hover effect to the header on hover */
+header:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Smooth box shadow transition */
+}
+
+/* Add hover effect to the main content area on hover */
+main:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background color and transform (scale) transitions */
+}
+
+/* Add hover effect to the button on hover */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Scale up the button slightly on hover */
+}
+
+#googleResponse {
+    max-height: 200px; /* Set a fixed height for the response box */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds the height */
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Add hover effect to the response box on hover */
+#googleResponse:hover {
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Add hover effect to the footer on hover */
+footer:hover {
+    background-color: #0056b3;
+}
+
+.circular-cursor {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
